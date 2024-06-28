@@ -4,7 +4,7 @@ const app = express();
 
 // Define a GET route
 app.get('/', (req, res) => {
-  res.send('Hello, World! .........ASIf    .... susovon ....... Arijit ');
+  res.send('Hello, World! ... from Express.js Docker');
 });
 
 // Define another GET route
