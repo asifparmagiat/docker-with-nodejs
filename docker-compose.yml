@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "5010:5010"
+    volumes:
+      - .:/app
+    command: npm run dev
